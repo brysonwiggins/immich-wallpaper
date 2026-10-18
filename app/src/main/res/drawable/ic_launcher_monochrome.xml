@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon layer (Android 13+). The system tints it, so only shape/alpha matter. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rim of the pile -->
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="3"
+        android:pathData="M27,54 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0 z" />
+
+    <!-- Front card frame with its photo window cut out -->
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd"
+        android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z
+                          M42,34 h24 a2,2 0 0 1 2,2 v30 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+
+    <!-- Sun and mountains inside the window -->
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M58,42 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M40,68 L50,52 L57,60 L62,55 L68,68 Z" />
+</vector>

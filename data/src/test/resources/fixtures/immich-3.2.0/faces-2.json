@@ -1,0 +1,59 @@
+[
+    {
+        "id": "00000000-0000-4000-8000-000000000069",
+        "boundingBoxX1": 439,
+        "boundingBoxY1": 998,
+        "boundingBoxX2": 640,
+        "boundingBoxY2": 1244,
+        "imageWidth": 1440,
+        "imageHeight": 1920,
+        "sourceType": "machine-learning",
+        "person": {
+            "id": "00000000-0000-4000-8000-00000000000d",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.577066+00:00"
+        }
+    },
+    {
+        "id": "00000000-0000-4000-8000-00000000006a",
+        "boundingBoxX1": 508,
+        "boundingBoxY1": 804,
+        "boundingBoxX2": 743,
+        "boundingBoxY2": 1088,
+        "imageWidth": 1440,
+        "imageHeight": 1920,
+        "sourceType": "machine-learning",
+        "person": {
+            "id": "00000000-0000-4000-8000-00000000000e",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.578859+00:00"
+        }
+    },
+    {
+        "id": "00000000-0000-4000-8000-00000000006b",
+        "boundingBoxX1": 595,
+        "boundingBoxY1": 309,
+        "boundingBoxX2": 876,
+        "boundingBoxY2": 695,
+        "imageWidth": 1440,
+        "imageHeight": 1920,
+        "sourceType": "machine-learning",
+        "person": {
+            "id": "00000000-0000-4000-8000-00000000000f",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.578918+00:00"
+        }
+    }
+]

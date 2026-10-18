@@ -1,0 +1,20 @@
+{
+    "id": "00000000-0000-4000-8000-000000000001",
+    "email": "REDACTED",
+    "name": "REDACTED",
+    "profileImagePath": "REDACTED",
+    "avatarColor": "red",
+    "profileChangedAt": "2026-03-26T06:36:48.341Z",
+    "clusterGroupId": "00000000-0000-4000-8000-000000000002",
+    "storageLabel": "REDACTED",
+    "shouldChangePassword": true,
+    "isAdmin": true,
+    "createdAt": "2026-03-25T20:15:36.785Z",
+    "deletedAt": null,
+    "updatedAt": "2026-10-11T00:00:00.037Z",
+    "oauthId": "REDACTED",
+    "quotaSizeInBytes": null,
+    "quotaUsageInBytes": 33260144406,
+    "status": "active",
+    "license": null
+}

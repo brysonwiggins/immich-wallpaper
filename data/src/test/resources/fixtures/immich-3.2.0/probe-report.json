@@ -1,0 +1,233 @@
+{
+    "reachable": true,
+    "authOk": true,
+    "serverVersion": "3.2.0",
+    "steps": [
+        {
+            "name": "server-version",
+            "method": "GET",
+            "path": "/server/version",
+            "status": 200,
+            "millis": 287,
+            "error": null
+        },
+        {
+            "name": "users-me",
+            "method": "GET",
+            "path": "/users/me",
+            "status": 200,
+            "millis": 23,
+            "error": null
+        },
+        {
+            "name": "server-about",
+            "method": "GET",
+            "path": "/server/about",
+            "status": 403,
+            "millis": 58,
+            "error": "{\"message\":\"Missing required permission: server.about\"}"
+        },
+        {
+            "name": "server-features",
+            "method": "GET",
+            "path": "/server/features",
+            "status": 200,
+            "millis": 20,
+            "error": null
+        },
+        {
+            "name": "albums",
+            "method": "GET",
+            "path": "/albums",
+            "status": 200,
+            "millis": 24,
+            "error": null
+        },
+        {
+            "name": "people",
+            "method": "GET",
+            "path": "/people?size=20&withHidden=false",
+            "status": 200,
+            "millis": 21,
+            "error": null
+        },
+        {
+            "name": "search-random-legacy",
+            "method": "POST",
+            "path": "/search/random",
+            "status": 200,
+            "millis": 36,
+            "error": null
+        },
+        {
+            "name": "search-random-filter",
+            "method": "POST",
+            "path": "/search/random",
+            "status": 200,
+            "millis": 44,
+            "error": null
+        },
+        {
+            "name": "asset",
+            "method": "GET",
+            "path": "/assets/{id}",
+            "status": 200,
+            "millis": 17,
+            "error": null
+        },
+        {
+            "name": "faces",
+            "method": "GET",
+            "path": "/faces?id={id}",
+            "status": 200,
+            "millis": 15,
+            "error": null
+        },
+        {
+            "name": "faces-1",
+            "method": "GET",
+            "path": "/faces?id={id}",
+            "status": 200,
+            "millis": 14,
+            "error": null
+        },
+        {
+            "name": "faces-2",
+            "method": "GET",
+            "path": "/faces?id={id}",
+            "status": 200,
+            "millis": 15,
+            "error": null
+        }
+    ],
+    "randomSearch": {
+        "requested": 25,
+        "legacyBodyStatus": 200,
+        "filterBodyStatus": 200,
+        "returned": 25,
+        "withWidthHeight": 25,
+        "withExifDimensions": 25,
+        "orientationCounts": {
+            "6": 9,
+            "8": 4,
+            "1": 6,
+            "0": 4
+        },
+        "landscape": 5,
+        "portrait": 20,
+        "square": 0,
+        "withPeople": 15
+    },
+    "thumbnails": [
+        {
+            "size": "thumbnail",
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 8630,
+            "width": 250,
+            "height": 333,
+            "millis": 383,
+            "error": null
+        },
+        {
+            "size": "preview",
+            "status": 200,
+            "contentType": "image/jpeg",
+            "bytes": 271728,
+            "width": 1440,
+            "height": 1920,
+            "millis": 147,
+            "error": null
+        },
+        {
+            "size": "fullsize",
+            "status": 403,
+            "contentType": "application/json; charset=utf-8",
+            "bytes": 0,
+            "width": null,
+            "height": null,
+            "millis": 41,
+            "error": null
+        },
+        {
+            "size": "thumbnail",
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 3312,
+            "width": 250,
+            "height": 333,
+            "millis": 32,
+            "error": null
+        },
+        {
+            "size": "preview",
+            "status": 200,
+            "contentType": "image/jpeg",
+            "bytes": 163540,
+            "width": 1440,
+            "height": 1920,
+            "millis": 46,
+            "error": null
+        },
+        {
+            "size": "fullsize",
+            "status": 403,
+            "contentType": "application/json; charset=utf-8",
+            "bytes": 0,
+            "width": null,
+            "height": null,
+            "millis": 31,
+            "error": null
+        },
+        {
+            "size": "thumbnail",
+            "status": 200,
+            "contentType": "image/webp",
+            "bytes": 16642,
+            "width": 250,
+            "height": 333,
+            "millis": 29,
+            "error": null
+        },
+        {
+            "size": "preview",
+            "status": 200,
+            "contentType": "image/jpeg",
+            "bytes": 458038,
+            "width": 1440,
+            "height": 1920,
+            "millis": 60,
+            "error": null
+        },
+        {
+            "size": "fullsize",
+            "status": 403,
+            "contentType": "application/json; charset=utf-8",
+            "bytes": 0,
+            "width": null,
+            "height": null,
+            "millis": 29,
+            "error": null
+        }
+    ],
+    "faces": [
+        {
+            "count": 0,
+            "imageWidth": null,
+            "imageHeight": null,
+            "withPerson": 0
+        },
+        {
+            "count": 1,
+            "imageWidth": 1440,
+            "imageHeight": 1920,
+            "withPerson": 1
+        },
+        {
+            "count": 3,
+            "imageWidth": 1440,
+            "imageHeight": 1920,
+            "withPerson": 3
+        }
+    ]
+}

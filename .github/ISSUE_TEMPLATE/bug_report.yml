@@ -1,0 +1,39 @@
+name: Bug report
+description: Something isn't working as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version
+      placeholder: Galaxy Z Fold 8, Android 17
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App version
+      description: Settings → About.
+      placeholder: 1.0.0 (play)
+    validations:
+      required: true
+  - type: input
+    id: immich
+    attributes:
+      label: Immich server version
+      placeholder: "3.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Diagnostics log
+      description: Settings → Diagnostics log → Share. It contains no API keys, server addresses or photo links.
+      render: text

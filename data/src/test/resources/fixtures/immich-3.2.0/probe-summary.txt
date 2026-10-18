@@ -1,0 +1,35 @@
+Immich probe summary
+Server version: 3.2.0
+
+Requests:
+  GET /server/version -> 200 in 287 ms
+  GET /users/me -> 200 in 23 ms
+  GET /server/about -> 403 in 58 ms  [{"message":"Missing required permission: server.about"}]
+  GET /server/features -> 200 in 20 ms
+  GET /albums -> 200 in 24 ms
+  GET /people?size=20&withHidden=false -> 200 in 21 ms
+  POST /search/random -> 200 in 36 ms
+  POST /search/random -> 200 in 44 ms
+  GET /assets/{id} -> 200 in 17 ms
+  GET /faces?id={id} -> 200 in 15 ms
+  GET /faces?id={id} -> 200 in 14 ms
+  GET /faces?id={id} -> 200 in 15 ms
+
+Random search: requested 25, got 25
+  legacy body -> 200, filter body -> 200
+  width/height present: 25/25, exif dims: 25/25
+  orientations: {6=9, 8=4, 1=6, 0=4}
+  landscape 5, portrait 20, square-ish 0; with people 15
+
+Thumbnails:
+  thumbnail: 200 image/webp 250x333 8 KiB in 383 ms
+  preview: 200 image/jpeg 1440x1920 265 KiB in 147 ms
+  fullsize: 403 application/json; charset=utf-8 nullxnull 0 KiB in 41 ms
+  thumbnail: 200 image/webp 250x333 3 KiB in 32 ms
+  preview: 200 image/jpeg 1440x1920 159 KiB in 46 ms
+  fullsize: 403 application/json; charset=utf-8 nullxnull 0 KiB in 31 ms
+  thumbnail: 200 image/webp 250x333 16 KiB in 29 ms
+  preview: 200 image/jpeg 1440x1920 447 KiB in 60 ms
+  fullsize: 403 application/json; charset=utf-8 nullxnull 0 KiB in 29 ms
+
+Faces per sampled asset: [0, 1, 3] (reference image nullxnull)

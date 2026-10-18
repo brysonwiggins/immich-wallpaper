@@ -1,0 +1,61 @@
+name: Release
+
+# Builds the signed release: the FOSS APK goes to a draft GitHub release (published by hand), and
+# the Play bundle is uploaded as a workflow artifact for Play Console.
+# Runs when a version tag (v1.0.0, …) is pushed, when started from the Actions tab, or on a push
+# whose commit message contains "[release]". Without a tag, it uses v<versionName>.
+# Needs the secrets RELEASE_KEYSTORE_BASE64, RELEASE_STORE_PASSWORD, RELEASE_KEY_ALIAS and RELEASE_KEY_PASSWORD.
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+    branches: ['**']
+
+jobs:
+  release:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v') || contains(github.event.head_commit.message, '[release]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Restore the release key
+        run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > "$RUNNER_TEMP/release.jks"
+
+      - name: Version
+        id: version
+        run: echo "tag=v$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)" >> "$GITHUB_OUTPUT"
+
+      - name: Build signed release
+        env:
+          RELEASE_STORE_FILE: ${{ runner.temp }}/release.jks
+          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+        run: ./gradlew check :app:assembleFossRelease :app:bundlePlayRelease --stacktrace
+
+      - name: Upload Play bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: play-bundle
+          path: app/build/outputs/bundle/playRelease/*.aab
+          if-no-files-found: error
+
+      # A draft until the owner publishes it by hand (held back until the Play listing is live).
+      - name: Draft GitHub release with the FOSS APK
+        uses: softprops/action-gh-release@v2
+        with:
+          files: app/build/outputs/apk/foss/release/*.apk
+          tag_name: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || steps.version.outputs.tag }}
+          target_commitish: ${{ github.sha }}
+          generate_release_notes: true
+          draft: true

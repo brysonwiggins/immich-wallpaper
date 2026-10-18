@@ -1,0 +1,21 @@
+[
+    {
+        "id": "00000000-0000-4000-8000-000000000068",
+        "boundingBoxX1": 0,
+        "boundingBoxY1": 1325,
+        "boundingBoxX2": 639,
+        "boundingBoxY2": 2227,
+        "imageWidth": 1440,
+        "imageHeight": 1920,
+        "sourceType": "machine-learning",
+        "person": {
+            "id": "00000000-0000-4000-8000-00000000000d",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.577066+00:00"
+        }
+    }
+]

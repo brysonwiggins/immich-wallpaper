@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="1024" height="1024">
+<defs><clipPath id="rim"><circle cx="54" cy="54" r="27"/></clipPath></defs>
+<circle cx="54" cy="54" r="54" fill="#151A33"/>
+<g clip-path="url(#rim)">
+<g transform="rotate(30 54 54)"><rect x="36" y="30" width="36" height="48" rx="4" fill="#EDEAFF" stroke="#151A33" stroke-width="1.5"/><rect x="40" y="34" width="28" height="40" rx="2" fill="#2E3A70"/></g>
+<g transform="rotate(60 54 54)"><rect x="36" y="30" width="36" height="48" rx="4" fill="#EDEAFF" stroke="#151A33" stroke-width="1.5"/><rect x="40" y="34" width="28" height="40" rx="2" fill="#7B6CF6"/></g>
+<g transform="rotate(90 54 54)"><rect x="36" y="30" width="36" height="48" rx="4" fill="#EDEAFF" stroke="#151A33" stroke-width="1.5"/><rect x="40" y="34" width="28" height="40" rx="2" fill="#2E3A70"/></g>
+<g transform="rotate(120 54 54)"><rect x="36" y="30" width="36" height="48" rx="4" fill="#EDEAFF" stroke="#151A33" stroke-width="1.5"/><rect x="40" y="34" width="28" height="40" rx="2" fill="#7B6CF6"/></g>
+<g transform="rotate(150 54 54)"><rect x="36" y="30" width="36" height="48" rx="4" fill="#EDEAFF" stroke="#151A33" stroke-width="1.5"/><rect x="40" y="34" width="28" height="40" rx="2" fill="#2E3A70"/></g>
+</g>
+<circle cx="54" cy="54" r="27" fill="none" stroke="#151A33" stroke-width="1.5"/>
+<rect x="36" y="30" width="36" height="48" rx="4" fill="#EDEAFF" stroke="#151A33" stroke-width="1.5"/>
+<rect x="40" y="34" width="28" height="34" rx="2" fill="#7B6CF6"/>
+<circle cx="62" cy="42" r="4" fill="#FFD27A"/>
+<path d="M40 68 L50 52 L57 60 L62 55 L68 68 Z" fill="#151A33"/>
+</svg>

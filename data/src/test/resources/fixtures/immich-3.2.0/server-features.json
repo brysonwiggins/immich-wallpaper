@@ -1,0 +1,18 @@
+{
+    "smartSearch": true,
+    "facialRecognition": true,
+    "duplicateDetection": true,
+    "map": true,
+    "reverseGeocoding": true,
+    "importFaces": false,
+    "sidecar": true,
+    "search": true,
+    "trash": true,
+    "oauth": true,
+    "oauthAutoLaunch": false,
+    "ocr": "REDACTED",
+    "passwordLogin": true,
+    "configFile": false,
+    "email": "REDACTED",
+    "realtimeTranscoding": false
+}

@@ -1,0 +1,187 @@
+{
+    "people": [
+        {
+            "id": "00000000-0000-4000-8000-00000000000d",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.577Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000000e",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.578Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000000f",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.578Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000010",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.578Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000011",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000012",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000013",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000014",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000015",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000016",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000017",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000018",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000019",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000001a",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000001b",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000001c",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000001d",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000001e",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-00000000001f",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        },
+        {
+            "id": "00000000-0000-4000-8000-000000000020",
+            "name": "REDACTED",
+            "birthDate": null,
+            "thumbnailPath": "REDACTED",
+            "isHidden": false,
+            "isFavorite": false,
+            "updatedAt": "2026-09-18T18:42:53.579Z"
+        }
+    ],
+    "hasNextPage": true,
+    "total": 60,
+    "hidden": 0
+}

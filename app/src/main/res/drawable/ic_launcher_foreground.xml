@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spin Pile launcher foreground (Midnight). 108dp canvas; artwork stays inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Back cards, trimmed to one smooth circle -->
+    <group android:name="backCards">
+        <clip-path android:pathData="M27,54 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0 z" />
+        <group android:rotation="30" android:pivotX="54" android:pivotY="54">
+            <path android:fillColor="#EDEAFF" android:strokeColor="#151A33" android:strokeWidth="1.5"
+                android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+            <path android:fillColor="#2E3A70"
+                android:pathData="M42,34 h24 a2,2 0 0 1 2,2 v36 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+        </group>
+        <group android:rotation="60" android:pivotX="54" android:pivotY="54">
+            <path android:fillColor="#EDEAFF" android:strokeColor="#151A33" android:strokeWidth="1.5"
+                android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+            <path android:fillColor="#7B6CF6"
+                android:pathData="M42,34 h24 a2,2 0 0 1 2,2 v36 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+        </group>
+        <group android:rotation="90" android:pivotX="54" android:pivotY="54">
+            <path android:fillColor="#EDEAFF" android:strokeColor="#151A33" android:strokeWidth="1.5"
+                android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+            <path android:fillColor="#2E3A70"
+                android:pathData="M42,34 h24 a2,2 0 0 1 2,2 v36 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+        </group>
+        <group android:rotation="120" android:pivotX="54" android:pivotY="54">
+            <path android:fillColor="#EDEAFF" android:strokeColor="#151A33" android:strokeWidth="1.5"
+                android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+            <path android:fillColor="#7B6CF6"
+                android:pathData="M42,34 h24 a2,2 0 0 1 2,2 v36 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+        </group>
+        <group android:rotation="150" android:pivotX="54" android:pivotY="54">
+            <path android:fillColor="#EDEAFF" android:strokeColor="#151A33" android:strokeWidth="1.5"
+                android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+            <path android:fillColor="#2E3A70"
+                android:pathData="M42,34 h24 a2,2 0 0 1 2,2 v36 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+        </group>
+    </group>
+
+    <!-- Rim around the trimmed pile -->
+    <path android:strokeColor="#151A33" android:strokeWidth="1.5"
+        android:pathData="M27,54 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0 z" />
+
+    <!-- Front photo card -->
+    <path android:fillColor="#EDEAFF" android:strokeColor="#151A33" android:strokeWidth="1.5"
+        android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+    <path android:fillColor="#7B6CF6"
+        android:pathData="M42,34 h24 a2,2 0 0 1 2,2 v30 a2,2 0 0 1 -2,2 h-24 a2,2 0 0 1 -2,-2 v-30 a2,2 0 0 1 2,-2 z" />
+    <path android:fillColor="#FFD27A"
+        android:pathData="M58,42 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 z" />
+    <path android:fillColor="#151A33"
+        android:pathData="M40,68 L50,52 L57,60 L62,55 L68,68 Z" />
+</vector>
