@@ -13,7 +13,7 @@ android {
         applicationId = "com.wiggyserver.wallpaperswithimmich"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = 10
+        versionCode = 11
         versionName = "1.0.0"
     }
 
